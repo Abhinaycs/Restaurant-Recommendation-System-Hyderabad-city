@@ -10,8 +10,8 @@ https://categitau.medium.com/restaurant-recommender-system-eefd3226ed61
 https://github.com/roshnipatidar/swiggy_recommendation_model/blob/main/Food_Delivery_Project_Scraping.ipynb
 
 
+![Description of Screenshot](Screenshot 2024-10-13 210143.png)
 
-![Alt Text](![Alt Text](image_name.extension))
 
 
 
