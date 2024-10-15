@@ -4,6 +4,6 @@ beautifulsoup4==4.12.2
 requests==2.31.0
 lxml==4.9.3  
 urllib3==1.26.16
-streamlit==1.14.0
-scikit-learn==1.0.2
+
+
 
