@@ -9,7 +9,7 @@ https://categitau.medium.com/restaurant-recommender-system-eefd3226ed61
 
 https://github.com/roshnipatidar/swiggy_recommendation_model/blob/main/Food_Delivery_Project_Scraping.ipynb
 
-** application which uses the map to get coordinates**
+**application which uses the map to get coordinates**
 
 https://github.com/MariloyH/Restaurant_recommendation_system
 
