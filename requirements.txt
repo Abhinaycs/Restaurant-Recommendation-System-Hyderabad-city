@@ -8,3 +8,4 @@ lxml==4.9.3
 nltk==3.8.1
 tqdm==4.65.0
 pillow==9.5.0
+fuzzywuzzy==0.18.0
