@@ -212,8 +212,6 @@ traitlets==5.13.0
 trio==0.26.1
 trio-websocket==0.11.1
 twilio==9.2.3
-Twisted==24.3.0
-twisted-iocpsupport==1.0.4
 types-python-dateutil==2.8.19.14
 typing_extensions==4.12.2
 tzdata==2024.1
