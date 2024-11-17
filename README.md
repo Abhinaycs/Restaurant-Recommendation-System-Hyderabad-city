@@ -82,7 +82,7 @@ Built with **content-based filtering** and advanced techniques such as cosine si
 6. **Access the app**:  
    Visit `http://localhost:8501` in your browser.
 
-**Try here** : https://restaurant-recommendation-system-hyderabad-city-armgmzq6zbyh28.streamlit.app/
+**Try here** : https://restaurant-recommendation-system-hyderabad-city-armgmzq6zbyh28.streamlit.app/ 
 ---
 
 ## 📊 Usage
