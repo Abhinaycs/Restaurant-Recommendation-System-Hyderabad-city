@@ -113,13 +113,18 @@ def recommend_restaurants_city(liked_restaurant, cuisine, budget, occasion, top_
         (data['features'].str.contains(occasion, case=False, na=False))
     ]
 
+    if not liked_restaurant:  # If no liked restaurant is provided
+        return matches.sort_values(by='rating', ascending=False).head(top_n)
+
     liked_index = data[data['name'].str.contains(liked_restaurant, case=False, na=False)].index
     if liked_index.empty:
-        return "Liked restaurant not found in the dataset."
+        return matches.sort_values(by='rating', ascending=False).head(top_n)  # Return top-rated if liked restaurant not found
 
     similarity_scores = cosine_similarity(tfidf_matrix[liked_index[0]], tfidf_matrix[matches.index]).flatten()
     matches['weighted_score'] = similarity_scores * (matches['rating'] / data['rating'].max())
+
     return matches.sort_values(by=['rating', 'weighted_score'], ascending=[False, False]).head(top_n)
+
 
 data['features'] = data['more_info'].fillna('') + ',' + data['special features'].fillna('')
 
